@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KnightController : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float RunSpeed = 8;
     public float speed = 4;
