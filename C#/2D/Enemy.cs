@@ -21,6 +21,5 @@ public class Enemy : MonoBehaviour
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
-        Destroy(deathEffect, 1f);
     }
 }
